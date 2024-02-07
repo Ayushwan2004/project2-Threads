@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.margin{
+    height: 300px;
+    background-image: url(../images/threadsback.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.936);
+    height: 600px; 
+}
+.container .log{
+    padding: 2px;
+    color: white;
+    font-size: bold;
+    font-size: 20px;
+}
+#name{
+    border: 1px white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container input{
+    font-size: 1rem;
+    color: white;
+    outline: none;
+    padding: 20px;
+    border-radius: 15px;
+    height: 65px;
+    width: 400px;
+    border: none ;
+    background-color: rgba(255, 255, 255, 0.078);
+}
+.container input:focus{
+    outline: 1px solid rgba(255, 255, 255, 0.434);
+}
+#save{
+    width: 400px;
+    height: 66px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.507);
+    cursor: pointer;
+    
+}
+#footer a{
+    color: black;
+}
+#footer  p {
+    color: rgba(255, 255, 255, 0.413);
+    padding: 10px;
+    border-bottom:none  ;
+}
+#Or {
+    color: rgba(255, 255, 255, 0.459);
+
+}
+#ig{
+    height: 66px;
+    width: 400px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0.5px solid rgba(232, 232, 232, 0.411);
+}
+#ig p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#bot ul {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    font-size: 12px;
+    padding: 50px;
+       
+}
+#bot a{
+    
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.078);
+    
+}
+.LI li{
+    border: none;
+    color: rgb(151, 151, 151);
+
+}
+#bot a:hover{
+    color: rgb(151, 151, 151);
+}
+
+#ig:focus-within{
+    transition: 1ms;
+    height:62px ;
+    width: 380px;
+    opacity: 50%;
+}
